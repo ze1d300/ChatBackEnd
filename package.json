@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "chatbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "nodemon": "^3.1.3",
+    "socket.io": "^4.7.5"
+  }
+}
